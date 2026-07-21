@@ -363,6 +363,3 @@ Contributions are welcome! Please feel free to:
 
 ---
 
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/al-rafi-DSC">Sayed Al Rafi</a>
-</p>
