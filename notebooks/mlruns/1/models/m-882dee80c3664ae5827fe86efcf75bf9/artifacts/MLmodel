@@ -1,0 +1,56 @@
+artifact_path: file:///C:/Users/Sayed Al Rafi/Documents/Data Desktop/Data_Analysis/ML
+  project/Fetal Health Classifier(PJ 4)/notebooks/mlruns/1/models/m-882dee80c3664ae5827fe86efcf75bf9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types:
+    - collections.OrderedDict
+    - lightgbm.basic.Booster
+    - lightgbm.sklearn.LGBMClassifier
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-882dee80c3664ae5827fe86efcf75bf9
+model_size_bytes: 2706877
+model_uuid: m-882dee80c3664ae5827fe86efcf75bf9
+prompts: null
+run_id: 18f1a12e49ba460ca1b2faa7ff5eed59
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "baseline value", "required": true}, {"type":
+    "double", "name": "accelerations", "required": true}, {"type": "double", "name":
+    "fetal_movement", "required": true}, {"type": "double", "name": "uterine_contractions",
+    "required": true}, {"type": "double", "name": "light_decelerations", "required":
+    true}, {"type": "double", "name": "severe_decelerations", "required": true}, {"type":
+    "double", "name": "prolongued_decelerations", "required": true}, {"type": "double",
+    "name": "abnormal_short_term_variability", "required": true}, {"type": "double",
+    "name": "mean_value_of_short_term_variability", "required": true}, {"type": "double",
+    "name": "percentage_of_time_with_abnormal_long_term_variability", "required":
+    true}, {"type": "double", "name": "mean_value_of_long_term_variability", "required":
+    true}, {"type": "double", "name": "histogram_width", "required": true}, {"type":
+    "double", "name": "histogram_min", "required": true}, {"type": "double", "name":
+    "histogram_max", "required": true}, {"type": "double", "name": "histogram_number_of_peaks",
+    "required": true}, {"type": "double", "name": "histogram_number_of_zeroes", "required":
+    true}, {"type": "double", "name": "histogram_mode", "required": true}, {"type":
+    "double", "name": "histogram_mean", "required": true}, {"type": "double", "name":
+    "histogram_median", "required": true}, {"type": "double", "name": "histogram_variance",
+    "required": true}, {"type": "double", "name": "histogram_tendency", "required":
+    true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-07-21 00:19:46.822403'

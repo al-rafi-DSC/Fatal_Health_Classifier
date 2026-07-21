@@ -1,0 +1,52 @@
+{
+  "target": "fetal_health",
+  "class_mapping": {
+    "1": "Normal",
+    "2": "Suspect",
+    "3": "Pathological"
+  },
+  "feature_order": [
+    "baseline value",
+    "accelerations",
+    "fetal_movement",
+    "uterine_contractions",
+    "light_decelerations",
+    "severe_decelerations",
+    "prolongued_decelerations",
+    "abnormal_short_term_variability",
+    "mean_value_of_short_term_variability",
+    "percentage_of_time_with_abnormal_long_term_variability",
+    "mean_value_of_long_term_variability",
+    "histogram_width",
+    "histogram_min",
+    "histogram_max",
+    "histogram_number_of_peaks",
+    "histogram_number_of_zeroes",
+    "histogram_mode",
+    "histogram_mean",
+    "histogram_median",
+    "histogram_variance",
+    "histogram_tendency"
+  ],
+  "random_state": 42,
+  "best_cv_macro_f1": 0.9020068998106885,
+  "test_metrics": {
+    "test_accuracy": 0.9621749408983451,
+    "test_balanced_accuracy": 0.9222570532915361,
+    "test_macro_f1": 0.9294901528300207,
+    "test_macro_recall": 0.9222570532915361
+  },
+  "best_params": {
+    "max_depth": 10,
+    "n_estimators": 305,
+    "learning_rate": 0.01930832939850916,
+    "num_leaves": 92,
+    "min_child_samples": 5,
+    "subsample": 0.7897090302502459,
+    "colsample_bytree": 0.7245696681533983,
+    "reg_alpha": 0.0030796909398207476,
+    "reg_lambda": 0.0002471178877944872,
+    "min_split_gain": 0.14000939121071496
+  },
+  "mlflow_run_id": "18f1a12e49ba460ca1b2faa7ff5eed59"
+}
